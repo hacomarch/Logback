@@ -1,0 +1,16 @@
+#logback.classic pattern: [REQUEST1] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{0}:%line] - %msg%n
+[REQUEST1] [INFO ] 2023-09-27 21:07:14 [http-nio-8080-exec-2] [DemoController:15] - log -> INFO
+[REQUEST1] [WARN ] 2023-09-27 21:07:14 [http-nio-8080-exec-2] [DemoController:16] - log -> WARN
+[REQUEST1] [ERROR] 2023-09-27 21:07:14 [http-nio-8080-exec-2] [DemoController:17] - log -> ERROR
+[REQUEST1] [INFO ] 2023-09-27 21:07:36 [http-nio-8080-exec-3] [DemoController:15] - log -> INFO
+[REQUEST1] [WARN ] 2023-09-27 21:07:36 [http-nio-8080-exec-3] [DemoController:16] - log -> WARN
+[REQUEST1] [ERROR] 2023-09-27 21:07:36 [http-nio-8080-exec-3] [DemoController:17] - log -> ERROR
+[REQUEST1] [INFO ] 2023-09-27 21:07:38 [http-nio-8080-exec-4] [DemoController:15] - log -> INFO
+[REQUEST1] [WARN ] 2023-09-27 21:07:38 [http-nio-8080-exec-4] [DemoController:16] - log -> WARN
+[REQUEST1] [ERROR] 2023-09-27 21:07:38 [http-nio-8080-exec-4] [DemoController:17] - log -> ERROR
+[REQUEST1] [INFO ] 2023-09-27 21:07:41 [http-nio-8080-exec-5] [DemoController:15] - log -> INFO
+[REQUEST1] [WARN ] 2023-09-27 21:07:41 [http-nio-8080-exec-5] [DemoController:16] - log -> WARN
+[REQUEST1] [ERROR] 2023-09-27 21:07:41 [http-nio-8080-exec-5] [DemoController:17] - log -> ERROR
+[REQUEST1] [INFO ] 2023-09-27 21:07:43 [http-nio-8080-exec-7] [DemoController:15] - log -> INFO
+[REQUEST1] [WARN ] 2023-09-27 21:07:43 [http-nio-8080-exec-7] [DemoController:16] - log -> WARN
+[REQUEST1] [ERROR] 2023-09-27 21:07:43 [http-nio-8080-exec-7] [DemoController:17] - log -> ERROR
