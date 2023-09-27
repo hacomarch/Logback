@@ -1,0 +1,11 @@
+#logback.classic pattern: [QUERY] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{0}:%line] - %msg%n
+[QUERY] [INFO ] 2023-09-27 21:35:29 [http-nio-8080-exec-1] [SQL_LOG1:15] - log --> INFO
+[QUERY] [WARN ] 2023-09-27 21:35:29 [http-nio-8080-exec-1] [SQL_LOG1:16] - log --> WARN
+[QUERY] [ERROR] 2023-09-27 21:35:29 [http-nio-8080-exec-1] [SQL_LOG1:17] - log --> ERROR#logback.classic pattern: [QUERY] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{0}:%line] - %msg%n
+[QUERY] [INFO ] 2023-09-27 21:37:44 [http-nio-8080-exec-1] [SQL_LOG1:15] - log --> INFO
+[QUERY] [WARN ] 2023-09-27 21:37:44 [http-nio-8080-exec-1] [SQL_LOG1:16] - log --> WARN
+[QUERY] [ERROR] 2023-09-27 21:37:44 [http-nio-8080-exec-1] [SQL_LOG1:17] - log --> ERROR
+#logback.classic pattern: [QUERY] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{0}:%line] - %msg%n
+[QUERY] [INFO ] 2023-09-27 21:40:31 [http-nio-8080-exec-1] [SQL_LOG2:17] - log --> INFO
+[QUERY] [WARN ] 2023-09-27 21:40:31 [http-nio-8080-exec-1] [SQL_LOG2:18] - log --> WARN
+[QUERY] [ERROR] 2023-09-27 21:40:31 [http-nio-8080-exec-1] [SQL_LOG2:19] - log --> ERROR

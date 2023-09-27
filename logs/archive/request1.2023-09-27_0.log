@@ -1,0 +1,16 @@
+#logback.classic pattern: [REQUEST1] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{0}:%line] - %msg%n
+[REQUEST1] [INFO ] 2023-09-27 21:06:55 [main] [LogbackApplication:51] - Starting LogbackApplication using Java 17.0.6 with PID 34886 (/Users/hwangseongtae/Desktop/haco/fastcampus/Logback/build/classes/java/main started by hwangseongtae in /Users/hwangseongtae/Desktop/haco/fastcampus/Logback)
+[REQUEST1] [INFO ] 2023-09-27 21:06:55 [main] [LogbackApplication:643] - The following 1 profile is active: "prod"
+[REQUEST1] [INFO ] 2023-09-27 21:06:56 [main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+[REQUEST1] [INFO ] 2023-09-27 21:06:56 [main] [StandardService:173] - Starting service [Tomcat]
+[REQUEST1] [INFO ] 2023-09-27 21:06:56 [main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+[REQUEST1] [INFO ] 2023-09-27 21:06:56 [main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+[REQUEST1] [INFO ] 2023-09-27 21:06:56 [main] [ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 348 ms
+[REQUEST1] [INFO ] 2023-09-27 21:06:56 [main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+[REQUEST1] [INFO ] 2023-09-27 21:06:56 [main] [LogbackApplication:57] - Started LogbackApplication in 0.696 seconds (process running for 1.083)
+[REQUEST1] [INFO ] 2023-09-27 21:06:57 [http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[REQUEST1] [INFO ] 2023-09-27 21:06:57 [http-nio-8080-exec-1] [DispatcherServlet:532] - Initializing Servlet 'dispatcherServlet'
+[REQUEST1] [INFO ] 2023-09-27 21:06:57 [http-nio-8080-exec-1] [DispatcherServlet:554] - Completed initialization in 0 ms
+[REQUEST1] [INFO ] 2023-09-27 21:06:57 [http-nio-8080-exec-1] [DemoController:15] - log -> INFO
+[REQUEST1] [WARN ] 2023-09-27 21:06:57 [http-nio-8080-exec-1] [DemoController:16] - log -> WARN
+[REQUEST1] [ERROR] 2023-09-27 21:06:57 [http-nio-8080-exec-1] [DemoController:17] - log -> ERROR
