@@ -8,6 +8,8 @@ Logging 프레임워크
 
 데이터는 돈이므로 로그는 곧 값비싼 자산이다.
 
+Pull requests -> closed 확인하기
+
 Appender 종류
 - ConsoleAppender : 콘솔에 로그를 출력
 - FileAppender : 파일 단위로 로그 저장
