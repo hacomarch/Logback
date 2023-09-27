@@ -1,4 +1,4 @@
-# LogBack란?
+# LogBack이란?
 
 Slf4j 라는 인터페이스를 구현하는 구현체
 
@@ -10,7 +10,7 @@ Logging 프레임워크
 
 Pull requests -> closed 확인하기
 
-Appender 종류
+### Appender 종류
 - ConsoleAppender : 콘솔에 로그를 출력
 - FileAppender : 파일 단위로 로그 저장
 - RollingFileAppender : (설정 옵션에 따라) 로그를 여러 파일로 나누어 저장
